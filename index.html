@@ -6,33 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <style>
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+        p {
+            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        }
+        body {
+            background-color: #BFBCCB;
+        }
+        .gg {
+            font-size: larger;
+        }
+        .g {
+            font-size: large;
+        }
+        .m {
+            font-size: medium;
+        }
+        .p {
+            font-size: small;
+        }
+        .pp {
+            font-size: smaller;
+        }
+        .xpp {
+            font-size: xx-small;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Rafaela Xavier Granato</h1>
+    <h1 id="início">Rafaela Xavier Granato</h1>
     <main>
         <section>
-            <img src="perfil.jpg" alt="foto de perfil de Rafaela Xavier Granato" width="200px" id="foto">
+            <img src="perfil.jpg" alt="foto de perfil de Rafaela Xavier Granato" width="200px">
             <h3><a href="#sobre">Sobre mim</a></h3>
             <h3><a href="#habilidades">Habilidades</a></h3>
         </section>
         <section>
             <h2 id="sobre"><em>Sobre mim:</em></h2>
-            <p>Sou brasileira, nascida em Belo Horizonte/MG.<br>Formei em engenharia civil pela Universidade Federal de Ouro Preto em 2018, mas acabei não atuando na área, e trabalhei com gastronomia.<br>Tenho 31 anos, estou em transição de carreira, e estou estudando desenvolvimento web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.<br>Adoro assistir séries e filmes, ler, ouvir música e reunir os amigos.</p>
+            <p>Sou brasileira, nascida em <a href="#viaduto">Belo Horizonte/MG</a>.<br>Formei em engenharia civil pela <a href="#ufop">Universidade Federal de Ouro Preto</a> em 2018, mas acabei não atuando na área, e trabalhei com gastronomia.<br>Tenho 31 anos, estou em transição de carreira, e estou estudando desenvolvimento web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.<br>Adoro assistir séries e filmes, ler, ouvir música e reunir os amigos.</p>
+            <figure>
+            <img src="viaduto.jpeg" alt="foto do Viaduto Santa Tereza em Belo Horizonte" width="400px" id="viaduto">
+            <figcaption>Viaduto Santa Tereza, um dos meus lugares preferidos de BH</figcaption><br>
+            <img src="ufop.jpg" alt="foto da Universidade Federal de Ouro Preto" width="400px" id="ufop">
+            <figcaption>Universidade Federal de Ouro Preto</figcaption>
+        </figure>
         </section>
         <section>
             <h2 id="habilidades"><em>Habilidades:</em></h2>
             <ul>
-                <li><strong>Empatia</strong></li>
-                <li>Proatividade</li>
-                <li>Boa comunicação</li>
-                <li>Flexibilidade</li>
-                <li>Organização</li>
-                <li>Criatividade</li>
+                <li class="gg"><strong>Empatia</strong></li>
+                <li class="g">Proatividade</li>
+                <li class="m">Boa comunicação</li>
+                <li class="p">Flexibilidade</li>
+                <li class="pp">Organização</li>
+                <li class="xpp">Criatividade</li>
             </ul>
         </section>
         <section>
-            <a href="#foto">Volte ao início</a>
+            <a href="#início">Volte ao início</a>
         </section>
     </main>
 </body>
