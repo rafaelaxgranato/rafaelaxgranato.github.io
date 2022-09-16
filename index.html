@@ -9,30 +9,40 @@
     <style>
         h1 {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-            color: 1C7293;
+            color: #7C3238;
             text-align: center;
         }
         h2 {
-            color: #065A82;
+            color: #B7245C;
             text-align: center;
         }
         h3 {
             text-align: center;
+            color: #7C3238;
+;
         }
         p {
             font-family:Verdana, Geneva, Tahoma, sans-serif ;
-            color: #21295C;
+            color: #002500;
             text-align: center;
         }
         body {
-            background-color: #9EB3C2;
+            background-color: #EDCBB1;
         }
         ul {
-            color: #21295C;
+            color: #002500;
             text-align: center;
         }
         img {
+            display: flex;
+            margin: 0 auto;
+        }
+        .perfil {
+            border-radius: 50%;
+        }
+        figcaption {
             text-align: center;
+            color: #002500;
         }
     </style>
 </head>
@@ -41,22 +51,22 @@
     <h1 id="início">Rafaela Xavier Granato</h1>
     <main>
         <section>
-            <img src="perfil.jpg" alt="foto de perfil de Rafaela Xavier Granato" width="200px">
-            <h3><a href="#sobre">Sobre mim</a></h3>
-            <h3><a href="#habilidades">Habilidades</a></h3>
+            <img src="perfil.jpg" alt="foto de perfil de Rafaela Xavier Granato" width="200px" class="perfil">
+            <h2><a href="#sobre">Sobre mim</a></h2>
+            <h2><a href="#habilidades">Habilidades</a></h2>
         </section>
         <section>
-            <h2 id="sobre"><em>Sobre mim:</em></h2>
+            <h3 id="sobre"><em>Sobre mim:</em></h3>
             <p>Sou brasileira, nascida em <a href="#viaduto">Belo Horizonte/MG</a>.<br>Formei em engenharia civil pela <a href="#ufop">Universidade Federal de Ouro Preto</a> em 2018, mas acabei não atuando na área, e trabalhei com gastronomia.<br>Tenho 31 anos, estou em transição de carreira, e estou estudando desenvolvimento web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.<br>Adoro assistir séries e filmes, ler, ouvir música e reunir os amigos.</p>
             <figure>
             <img src="viaduto.jpeg" alt="foto do Viaduto Santa Tereza em Belo Horizonte" width="400px" id="viaduto">
-            <figcaption>Viaduto Santa Tereza, um dos meus lugares preferidos de BH</figcaption><br>
+            <figcaption>Viaduto Santa Tereza, um dos meus lugares preferidos em BH</figcaption><br>
             <img src="ufop.jpg" alt="foto da Universidade Federal de Ouro Preto" width="400px" id="ufop">
             <figcaption>Universidade Federal de Ouro Preto</figcaption>
         </figure>
         </section>
         <section>
-            <h2 id="habilidades"><em>Habilidades:</em></h2>
+            <h3 id="habilidades"><em>Habilidades:</em></h3>
             <ul>
                 <li><strong>Empatia</strong></li>
                 <li>Proatividade</li>
