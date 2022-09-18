@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #7C3238;
+    text-align: center;
+}
+h2 {
+    color: #B7245C;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: #7C3238;
+;
+}
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #002500;
+    text-align: center;
+}
+body {
+    background-color: #EDCBB1;
+}
+ul {
+    color: #002500;
+    text-align: center;
+}
+img {
+    display: flex;
+    margin: 0 auto;
+}
+.perfil {
+    border-radius: 50%;
+}
+figcaption {
+    text-align: center;
+    color: #002500;
+}
