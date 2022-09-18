@@ -19,6 +19,7 @@ p {
 }
 body {
     background-color: #EDCBB1;
+    margin: 35px;
 }
 ul {
     color: #002500;
@@ -30,8 +31,18 @@ img {
 }
 .perfil {
     border-radius: 50%;
+    float: left;
+    padding: 5px;
+    background-color: #B7245C;
+
 }
 figcaption {
     text-align: center;
     color: #002500;
+}
+.image-container {
+    height: 210px;
+}
+li:nth-of-type(odd) {
+    background-color: #B7245C;
 }
