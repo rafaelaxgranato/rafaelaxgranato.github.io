@@ -43,6 +43,3 @@ figcaption {
 .image-container {
     height: 210px;
 }
-li:nth-of-type(odd) {
-    background-color: #B7245C;
-}
